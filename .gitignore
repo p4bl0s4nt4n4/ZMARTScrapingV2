@@ -1,3 +1,4 @@
-"packages" 
-"ZMARTScrapingV2/bin" 
-"ZMARTScrapingV2/obj" 
+packages 
+ZMARTScrapingV2/bin 
+ZMARTScrapingV2/obj 
+.vs
