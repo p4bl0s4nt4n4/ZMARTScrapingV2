@@ -46,8 +46,6 @@ namespace ZMARTScrapingV2
             _tablaDatos.Columns.Add("_id", typeof(int));
             _tablaDatos.Columns.Add("nombre", typeof(string));
             _tablaDatos.Columns.Add("precio", typeof(int));
-            _tablaDatos.Columns.Add("fecha_descarga", typeof(DateTime));
-            _tablaDatos.Columns.Add("nuevo_precio", typeof(int));
             _tablaDatos.Columns.Add("fecha_modificacion", typeof(DateTime));
             _tablaDatos.Columns.Add("observacion", typeof(string));
 
@@ -98,8 +96,6 @@ namespace ZMARTScrapingV2
                 {
                     nombre = titulo,
                     precio = precio,
-                    fecha_descarga = fecha,
-                    nuevo_precio = 0,
                     fecha_modificacion = DateTime.Today,
                     observacion = ""
                 };
@@ -117,8 +113,6 @@ namespace ZMARTScrapingV2
                     reg.Id,
                     reg.nombre,
                     reg.precio,
-                    reg.fecha_descarga,
-                    reg.nuevo_precio,
                     reg.fecha_modificacion,
                     reg.observacion
                 };
@@ -150,7 +144,6 @@ namespace ZMARTScrapingV2
             txtEstado.Text = "Sin datos";
 
             advancedDataGridView1.DisableFilterAndSort(advancedDataGridView1.Columns["_id"]);
-            advancedDataGridView1.SetFilterDateAndTimeEnabled(advancedDataGridView1.Columns["fecha_descarga"], true);
             advancedDataGridView1.SetFilterDateAndTimeEnabled(advancedDataGridView1.Columns["fecha_modificacion"], true);
         }
 

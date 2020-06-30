@@ -45,7 +45,7 @@
             // 
             this.btnExtraer.Location = new System.Drawing.Point(12, 199);
             this.btnExtraer.Name = "btnExtraer";
-            this.btnExtraer.Size = new System.Drawing.Size(1097, 36);
+            this.btnExtraer.Size = new System.Drawing.Size(832, 36);
             this.btnExtraer.TabIndex = 1;
             this.btnExtraer.Text = "Extraer Información";
             this.btnExtraer.UseVisualStyleBackColor = true;
@@ -65,7 +65,7 @@
             this.advancedDataGridView1.RowHeadersVisible = false;
             this.advancedDataGridView1.RowHeadersWidth = 51;
             this.advancedDataGridView1.RowTemplate.Height = 24;
-            this.advancedDataGridView1.Size = new System.Drawing.Size(1097, 150);
+            this.advancedDataGridView1.Size = new System.Drawing.Size(832, 150);
             this.advancedDataGridView1.TabIndex = 2;
             // 
             // advancedDataGridViewSearchToolBar1
@@ -78,7 +78,7 @@
             this.advancedDataGridViewSearchToolBar1.MinimumSize = new System.Drawing.Size(0, 27);
             this.advancedDataGridViewSearchToolBar1.Name = "advancedDataGridViewSearchToolBar1";
             this.advancedDataGridViewSearchToolBar1.RenderMode = System.Windows.Forms.ToolStripRenderMode.Professional;
-            this.advancedDataGridViewSearchToolBar1.Size = new System.Drawing.Size(1121, 27);
+            this.advancedDataGridViewSearchToolBar1.Size = new System.Drawing.Size(858, 27);
             this.advancedDataGridViewSearchToolBar1.TabIndex = 3;
             this.advancedDataGridViewSearchToolBar1.Text = "advancedDataGridViewSearchToolBar1";
             this.advancedDataGridViewSearchToolBar1.Search += new Zuby.ADGV.AdvancedDataGridViewSearchToolBarSearchEventHandler(this.advancedDataGridViewSearchToolBar1_Search);
@@ -91,7 +91,7 @@
             this.txtEstado});
             this.barraEstado.Location = new System.Drawing.Point(0, 253);
             this.barraEstado.Name = "barraEstado";
-            this.barraEstado.Size = new System.Drawing.Size(1121, 26);
+            this.barraEstado.Size = new System.Drawing.Size(858, 26);
             this.barraEstado.TabIndex = 4;
             this.barraEstado.Text = "statusStrip1";
             // 
@@ -110,7 +110,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1121, 279);
+            this.ClientSize = new System.Drawing.Size(858, 279);
             this.Controls.Add(this.barraEstado);
             this.Controls.Add(this.advancedDataGridViewSearchToolBar1);
             this.Controls.Add(this.advancedDataGridView1);

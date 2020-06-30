@@ -7,8 +7,6 @@ namespace ZMARTScrapingV2
         public int Id { get; set; }
         public string nombre { get; set; }
         public int precio { get; set; }
-        public DateTime fecha_descarga { get; set; }
-        public int nuevo_precio { get; set; }
         public DateTime fecha_modificacion { get; set; }
         public string observacion { get; set; }
     }

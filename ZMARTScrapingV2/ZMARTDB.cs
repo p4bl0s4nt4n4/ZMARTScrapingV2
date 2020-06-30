@@ -26,7 +26,6 @@ namespace ZMARTScrapingV2
                 if(jg.precio != resultado.precio)
                 {
                     resultado.fecha_modificacion = DateTime.Today;
-                    resultado.nuevo_precio = jg.precio;
 
                     if (jg.precio > resultado.precio)
                     {
